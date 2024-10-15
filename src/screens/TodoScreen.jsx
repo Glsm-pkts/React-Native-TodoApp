@@ -102,7 +102,7 @@ const TodoScreen = () => {
   };
 
   return (
-    <LinearGradient colors={['#fef3c7', '#a78bfa']} style={styles.container}>
+    <LinearGradient colors={['#F2E5BF', '#387478']} style={styles.container}>
       <SafeAreaView>
         <Text style={styles.headerText}>TO-DO LIST</Text>
         <View style={styles.inputContainer}>

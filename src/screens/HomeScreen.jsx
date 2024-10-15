@@ -26,7 +26,7 @@ navigation.push("Onboarding")
         style={styles.addTaskButton}>
 <LinearGradient 
 style={styles.addTaskButton} 
-colors={["#a78bfa","#fef3c7"]}>
+colors={["#ECDFCC","#629584"]}>
     <Text style={styles.addTaskText}>New Task, Who's In? </Text>
 </LinearGradient>
         </TouchableOpacity>
@@ -35,7 +35,7 @@ colors={["#a78bfa","#fef3c7"]}>
         style={styles.resetButton}>
 <LinearGradient 
 style={styles.resetButton} 
-colors={["#a7f3d0","#ff6347"]}>
+colors={["#FCFAEE","#DA8359"]}>
     <Text style={styles.resetText}>Reset </Text>
 </LinearGradient>
         </TouchableOpacity>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
        alignItems: 'center',
-       backgroundColor:"#fef3c7",
+       backgroundColor:"#E2F1E7",
     },
     lottie:{
         width:width*0.9,

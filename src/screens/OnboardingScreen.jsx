@@ -14,7 +14,7 @@ const handleDone = () => {
 navigation.navigate("Home")
 setItem("onboarding","1")
     };
-    
+
 const doneButton = ({...props}) => {
     return (
       <TouchableOpacity style={{padding:20, color:"white"}} {...props}> 
@@ -33,7 +33,7 @@ const doneButton = ({...props}) => {
      style={{paddingHorizontal:15}}
   pages={[
     {
-      backgroundColor: '#BD34AA',
+      backgroundColor: '#257180',
       image:(
         <View style={styles.lottie}>
            <Lottie style={{flex:1}} source={require("../assets/animations/boost.json")}
@@ -44,7 +44,7 @@ const doneButton = ({...props}) => {
       subtitle: 'Done with React Native Onboarding Swiper',
     },
     {
-        backgroundColor: '#5D3D2B',
+        backgroundColor: '#CB6040',
         image:(
             <View style={styles.lottie}>
             <Lottie style={{flex:1}} source={require("../assets/animations/work.json")}
@@ -55,7 +55,7 @@ const doneButton = ({...props}) => {
             subtitle: 'Join our Udemig courses to enhance your skills!',
       },
       {
-        backgroundColor: '#4f5b2d',
+        backgroundColor: '#F2E5BF',
         image:(
             <View style={styles.lottie}>
             <Lottie style={{flex:1}} source={require("../assets/animations/achieve.json")}
